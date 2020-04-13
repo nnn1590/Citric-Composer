@@ -73,9 +73,8 @@
     <Reference Include="ScintillaNET, Version=3.6.3.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\jacobslusser.ScintillaNET.3.6.3\lib\net40\ScintillaNET.dll</HintPath>
     </Reference>
-    <Reference Include="Syroot.BinaryData">
-      <HintPath>..\..\NitroStudio\NitroStudio\Syroot.BinaryData.dll</HintPath>
-    </Reference>
+    <!--<PackageReference Include="Syroot.BinaryData" Version="5.2.0" />-->
+    <PackageReference Include="Syroot.IO.BinaryData" Version="4.0.4" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
